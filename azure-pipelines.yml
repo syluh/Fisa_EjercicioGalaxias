@@ -11,7 +11,7 @@ pool:
 
 steps:
 - task: Maven@3
-  displayName: 'GalaxyMain/pom.xml'
+  displayName: 'pom.xml'
   inputs:
     mavenPomFile: 'GalaxyMain/pom.xml'
     codeCoverageToolOption: Cobertura
